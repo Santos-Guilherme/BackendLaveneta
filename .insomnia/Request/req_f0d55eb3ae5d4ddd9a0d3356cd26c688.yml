@@ -1,0 +1,31 @@
+_id: req_f0d55eb3ae5d4ddd9a0d3356cd26c688
+type: Request
+parentId: fld_63c636784c0c4b0cb35173c8bf548932
+modified: 1684877149330
+created: 1684875108200
+url: http://localhost:3000/cardapio
+name: AdicionarItemCardapio
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 4	,
+      "nome": "Margherita",
+      "ingredientes": "Molho de tomate, Mussarela, Manjericão",
+      "valor": 28.8
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684875108200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

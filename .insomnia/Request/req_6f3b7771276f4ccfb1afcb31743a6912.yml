@@ -1,0 +1,31 @@
+_id: req_6f3b7771276f4ccfb1afcb31743a6912
+type: Request
+parentId: fld_5bc74d055d2345e0b8f58a18c03c55b9
+modified: 1684876054198
+created: 1684869278754
+url: http://localhost:3000/pedidos
+name: NovoPedido
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 4, 
+      "mesa": 6, 
+      "nome": "Mussarela",
+    	"valor": 26
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684869278754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

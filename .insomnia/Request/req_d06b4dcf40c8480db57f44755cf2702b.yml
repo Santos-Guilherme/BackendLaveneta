@@ -1,0 +1,30 @@
+_id: req_d06b4dcf40c8480db57f44755cf2702b
+type: Request
+parentId: fld_63c636784c0c4b0cb35173c8bf548932
+modified: 1684887801659
+created: 1684875177192
+url: http://localhost:3000/cardapio/4
+name: AlterarCardapio
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "nome": "Portuguesa",
+      "ingredientes": "Molho de tomate, Mussarela, Presunto, Ovo, Cebola, Azeitonas",
+      "valor": 32.5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684875177192
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_204584357d524c698d8e54c56dc296b3
+type: Request
+parentId: fld_5b04777d36604a6abc2ac77bf0473528
+modified: 1684871906066
+created: 1684869949233
+url: http://localhost:3000/reservas
+name: AdicionarReserva
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Ana",
+    	"cpf": "56198756498",
+    	"date": "2023-05-29",
+    	"time": "Janta",
+    	"tableNumber": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684869949233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

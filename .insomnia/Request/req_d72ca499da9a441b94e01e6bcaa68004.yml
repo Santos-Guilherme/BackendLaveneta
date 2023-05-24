@@ -1,0 +1,29 @@
+_id: req_d72ca499da9a441b94e01e6bcaa68004
+type: Request
+parentId: fld_5b04777d36604a6abc2ac77bf0473528
+modified: 1684893270385
+created: 1684869987961
+url: http://localhost:3000/reservas/0
+name: AlterarReserva
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2023-05-27",
+    	"time": "Almoço"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684869987961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_a746d4339fb348d3b2d3284cba0dc631
+type: Request
+parentId: fld_5bc74d055d2345e0b8f58a18c03c55b9
+modified: 1684891535080
+created: 1684869430697
+url: http://localhost:3000/pedidos/3
+name: AlterarPedido
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    { 
+    	"nome": "Frango com Catupiry"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684869430697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
